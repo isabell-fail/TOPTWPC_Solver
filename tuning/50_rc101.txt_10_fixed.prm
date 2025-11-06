@@ -1,0 +1,24 @@
+Start tuning.
+
+Solving model using baseline parameter set with TimeLimit=3600s
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 1...
+
+        SimplexPricing 2 (fixed)
+        Heuristics 0.5 (fixed)
+
+Solving model_000 with random seed #1 ... objective -2.132200e+04
+Solving model_000 with random seed #2 ... objective -2.132200e+04
+Solving model_000 with random seed #3 ... objective -2.132200e+04
+
+Interrupt request received
+
+
+Tuning Interrupted
+
+-------------------------------------------------------------------------------
+
+Tested 0 parameter sets in 7562.46s
+Total optimization run time for up to 1 concurrent runs: 7200.01s

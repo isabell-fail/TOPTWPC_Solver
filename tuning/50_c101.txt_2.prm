@@ -1,0 +1,635 @@
+C:\Users\Isabe\IdeaProjects\TOPTWPC_Solver\venv\Scripts\python.exe C:/Users/Isabe/IdeaProjects/TOPTWPC_Solver/main.py
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-10-25
+Set parameter TimeLimit to value 10
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 394 rows, 330 columns and 1498 nonzeros
+Model fingerprint: 0x16fcac59
+Variable types: 28 continuous, 302 integer (302 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [5e+02, 2e+03]
+  Bounds range     [1e+00, 8e+02]
+  RHS range        [1e+00, 1e+04]
+
+User MIP start produced solution with objective 15192 (0.00s)
+User MIP start produced solution with objective 15192 (0.00s)
+Loaded user MIP start with objective 15192
+
+Presolve removed 241 rows and 152 columns
+Presolve time: 0.01s
+Presolved: 153 rows, 178 columns, 1354 nonzeros
+Variable types: 14 continuous, 164 integer (164 binary)
+
+Root relaxation: objective 1.695200e+04, 91 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 16952.0000    0    4 15192.0000 16952.0000  11.6%     -    0s
+     0     0 16952.0000    0   24 15192.0000 16952.0000  11.6%     -    0s
+     0     0 16952.0000    0    6 15192.0000 16952.0000  11.6%     -    0s
+     0     0 16952.0000    0   15 15192.0000 16952.0000  11.6%     -    0s
+     0     0 16952.0000    0    9 15192.0000 16952.0000  11.6%     -    0s
+     0     0 16952.0000    0    6 15192.0000 16952.0000  11.6%     -    0s
+     0     0 16952.0000    0    6 15192.0000 16952.0000  11.6%     -    0s
+     0     0 16952.0000    0    9 15192.0000 16952.0000  11.6%     -    0s
+     0     0 16952.0000    0    9 15192.0000 16952.0000  11.6%     -    0s
+     0     2 16952.0000    0    9 15192.0000 16952.0000  11.6%     -    0s
+H   62    43                    16952.000000 16952.0000  0.00%   6.8    0s
+
+Cutting planes:
+  Cover: 1
+  Implied bound: 1
+  Clique: 1
+  MIR: 2
+  StrongCG: 1
+
+Explored 95 nodes (1383 simplex iterations) in 0.15 seconds (0.07 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 16952 15192
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.695200000000e+04, best bound 1.695200000000e+04, gap 0.0000%
+Set parameter TimeLimit to value 10
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 103 rows, 74 columns and 288 nonzeros
+Model fingerprint: 0x29704479
+Variable types: 14 continuous, 60 integer (60 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [5e+02, 2e+03]
+  Bounds range     [1e+00, 8e+02]
+  RHS range        [1e+00, 1e+04]
+
+User MIP start produced solution with objective 5992 (0.00s)
+Loaded user MIP start with objective 5992
+
+Presolve removed 103 rows and 74 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 2: 5992 5992
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.992000000000e+03, best bound 5.992000000000e+03, gap 0.0000%
+Set parameter TimeLimit to value 10
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 103 rows, 74 columns and 288 nonzeros
+Model fingerprint: 0x9b0d6aa6
+Variable types: 14 continuous, 60 integer (60 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [5e+02, 2e+03]
+  Bounds range     [1e+00, 8e+02]
+  RHS range        [1e+00, 1e+04]
+
+User MIP start produced solution with objective 5912 (0.00s)
+Loaded user MIP start with objective 5912
+
+Presolve removed 103 rows and 74 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 2: 5912 5912
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.912000000000e+03, best bound 5.912000000000e+03, gap 0.0000%
+Set parameter TimeLimit to value 10
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 311 rows, 252 columns and 1118 nonzeros
+Model fingerprint: 0x986742be
+Variable types: 26 continuous, 226 integer (226 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [4e+02, 5e+03]
+  Bounds range     [1e+00, 9e+02]
+  RHS range        [1e+00, 1e+04]
+
+User MIP start produced solution with objective 15281 (0.00s)
+Loaded user MIP start with objective 15281
+
+Presolve removed 282 rows and 226 columns
+Presolve time: 0.00s
+Presolved: 29 rows, 26 columns, 132 nonzeros
+Variable types: 6 continuous, 20 integer (20 binary)
+
+Root relaxation: cutoff, 0 iterations, 0.00 seconds (0.00 work units)
+
+Explored 1 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 15281
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.528100000000e+04, best bound 1.528100000000e+04, gap 0.0000%
+Set parameter TimeLimit to value 10
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 126 rows, 92 columns and 368 nonzeros
+Model fingerprint: 0x1305b327
+Variable types: 16 continuous, 76 integer (76 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [4e+02, 2e+03]
+  Bounds range     [1e+00, 9e+02]
+  RHS range        [1e+00, 1e+04]
+
+User MIP start produced solution with objective 5561 (0.00s)
+Loaded user MIP start with objective 5561
+
+Presolve removed 126 rows and 92 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 5561
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.561000000000e+03, best bound 5.561000000000e+03, gap 0.0000%
+Set parameter TimeLimit to value 10
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 128 rows, 94 columns and 378 nonzeros
+Model fingerprint: 0xcfca3f71
+Variable types: 16 continuous, 78 integer (78 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [4e+02, 2e+03]
+  Bounds range     [1e+00, 9e+02]
+  RHS range        [1e+00, 1e+04]
+
+User MIP start produced solution with objective 5902 (0.00s)
+Loaded user MIP start with objective 5902
+
+Presolve removed 128 rows and 94 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 5902
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.902000000000e+03, best bound 5.902000000000e+03, gap 0.0000%
+Set parameter TimeLimit to value 10
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 223 rows, 174 columns and 748 nonzeros
+Model fingerprint: 0x2d7b9e63
+Variable types: 22 continuous, 152 integer (152 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+01, 3e+03]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+04]
+
+User MIP start produced solution with objective 7217 (0.00s)
+Loaded user MIP start with objective 7217
+
+Presolve removed 152 rows and 108 columns
+Presolve time: 0.00s
+Presolved: 71 rows, 66 columns, 400 nonzeros
+Variable types: 10 continuous, 56 integer (56 binary)
+
+Root relaxation: objective 9.260000e+03, 25 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 9260.00000    0    7 7217.00000 9260.00000  28.3%     -    0s
+     0     0 9260.00000    0    8 7217.00000 9260.00000  28.3%     -    0s
+     0     0 9260.00000    0    4 7217.00000 9260.00000  28.3%     -    0s
+     0     0 9260.00000    0    7 7217.00000 9260.00000  28.3%     -    0s
+     0     0 9260.00000    0    7 7217.00000 9260.00000  28.3%     -    0s
+     0     0 9260.00000    0    6 7217.00000 9260.00000  28.3%     -    0s
+     0     0 9260.00000    0    9 7217.00000 9260.00000  28.3%     -    0s
+     0     0 9260.00000    0    6 7217.00000 9260.00000  28.3%     -    0s
+     0     0 9260.00000    0    6 7217.00000 9260.00000  28.3%     -    0s
+     0     2 9260.00000    0    6 7217.00000 9260.00000  28.3%     -    0s
+
+Cutting planes:
+  Learned: 4
+  Gomory: 4
+  Cover: 8
+  Implied bound: 8
+  Clique: 5
+  MIR: 3
+  GUB cover: 2
+  Relax-and-lift: 4
+
+Explored 243 nodes (1164 simplex iterations) in 0.08 seconds (0.03 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 7217
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.217000000000e+03, best bound 7.217000000000e+03, gap 0.0000%
+Set parameter TimeLimit to value 10
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 130 rows, 96 columns and 388 nonzeros
+Model fingerprint: 0xb9a9e7ce
+Variable types: 16 continuous, 80 integer (80 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+01, 1e+03]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+04]
+
+User MIP start produced solution with objective 2945 (0.00s)
+Loaded user MIP start with objective 2945
+
+Presolve removed 107 rows and 76 columns
+Presolve time: 0.00s
+Presolved: 23 rows, 20 columns, 93 nonzeros
+Variable types: 6 continuous, 14 integer (14 binary)
+
+Root relaxation: objective 3.587000e+03, 7 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 3587.00000    0    6 2945.00000 3587.00000  21.8%     -    0s
+     0     0 infeasible    0      2945.00000 2945.00000  0.00%     -    0s
+
+Explored 1 nodes (16 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 2945
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.945000000000e+03, best bound 2.945000000000e+03, gap 0.0000%
+Set parameter TimeLimit to value 10
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 429 rows, 360 columns and 1638 nonzeros
+Model fingerprint: 0xd7eb7664
+Variable types: 30 continuous, 330 integer (330 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+01, 2e+03]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+04]
+
+User MIP start produced solution with objective 3784 (0.00s)
+Loaded user MIP start with objective 3784
+
+Presolve removed 307 rows and 246 columns
+Presolve time: 0.01s
+Presolved: 122 rows, 114 columns, 928 nonzeros
+Variable types: 16 continuous, 98 integer (98 binary)
+
+Root relaxation: objective 4.972000e+03, 45 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 4972.00000    0   26 3784.00000 4972.00000  31.4%     -    0s
+     0     0 4972.00000    0   23 3784.00000 4972.00000  31.4%     -    0s
+     0     0 4972.00000    0   12 3784.00000 4972.00000  31.4%     -    0s
+     0     0 4972.00000    0   26 3784.00000 4972.00000  31.4%     -    0s
+     0     0 4972.00000    0   23 3784.00000 4972.00000  31.4%     -    0s
+     0     0 4972.00000    0   27 3784.00000 4972.00000  31.4%     -    0s
+     0     0 4972.00000    0   25 3784.00000 4972.00000  31.4%     -    0s
+     0     0 4972.00000    0   28 3784.00000 4972.00000  31.4%     -    0s
+     0     0 4972.00000    0   22 3784.00000 4972.00000  31.4%     -    0s
+     0     2 4972.00000    0   19 3784.00000 4972.00000  31.4%     -    0s
+
+Cutting planes:
+  Cover: 72
+  Implied bound: 28
+  Clique: 6
+  MIR: 12
+  StrongCG: 1
+  GUB cover: 2
+  RLT: 1
+  Relax-and-lift: 10
+  BQP: 1
+
+Explored 1022 nodes (8537 simplex iterations) in 0.30 seconds (0.19 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 3784
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.784000000000e+03, best bound 3.784000000000e+03, gap 0.0000%
+Set parameter TimeLimit to value 10
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 339 rows, 280 columns and 1258 nonzeros
+Model fingerprint: 0xaf55a778
+Variable types: 26 continuous, 254 integer (254 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+01, 8e+02]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+04]
+
+User MIP start produced solution with objective 1260 (0.00s)
+Loaded user MIP start with objective 1260
+
+Presolve removed 152 rows and 102 columns
+Presolve time: 0.01s
+Presolved: 187 rows, 178 columns, 1524 nonzeros
+Variable types: 18 continuous, 160 integer (160 binary)
+
+Root relaxation: objective 1.386000e+03, 58 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1386.00000    0    8 1260.00000 1386.00000  10.0%     -    0s
+     0     0 1386.00000    0   38 1260.00000 1386.00000  10.0%     -    0s
+     0     0 1386.00000    0   38 1260.00000 1386.00000  10.0%     -    0s
+     0     0 1386.00000    0   10 1260.00000 1386.00000  10.0%     -    0s
+     0     0 1386.00000    0    7 1260.00000 1386.00000  10.0%     -    0s
+     0     0 1386.00000    0   11 1260.00000 1386.00000  10.0%     -    0s
+     0     0 1386.00000    0   12 1260.00000 1386.00000  10.0%     -    0s
+     0     0 1386.00000    0   12 1260.00000 1386.00000  10.0%     -    0s
+     0     0 1386.00000    0   11 1260.00000 1386.00000  10.0%     -    0s
+     0     0 1386.00000    0   11 1260.00000 1386.00000  10.0%     -    0s
+     0     2 1386.00000    0   11 1260.00000 1386.00000  10.0%     -    0s
+
+Cutting planes:
+  Implied bound: 3
+  Projected implied bound: 1
+  Clique: 1
+  Flow cover: 1
+
+Explored 8074 nodes (102013 simplex iterations) in 2.72 seconds (1.83 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 1260
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.260000000000e+03, best bound 1.260000000000e+03, gap 0.0000%
+Set parameter TuneCriterion to value 2
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Start tuning.
+
+Solving model using baseline parameter set with TimeLimit=3600s
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 1...
+
+	Default parameters
+
+Solving 50_c101.txt with random seed #1 ... objective -9.461000e+03
+Solving 50_c101.txt with random seed #2 ... objective -1.006100e+04
+Solving 50_c101.txt with random seed #3 ... objective -1.006100e+04
+
+Summary candidate parameter set 1
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_c101.t  -9.461000e+03 -1.006100e+04 -1.006100e+04 -9.861000e+03       282.84 0.000000e+00
+
+Setting total tuning time limit to 108000s
+(set the TuneTimeLimit parameter to choose a different value)
+
+-------------------------------------------------------------------------------
+Begin tuning (baseline mean objective -9.861000e+03)...
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 2...
+
+	RINS 0
+
+Solving 50_c101.txt with random seed #1 ... objective -9.461000e+03
+Solving 50_c101.txt with random seed #2 ... objective -9.461000e+03
+Solving 50_c101.txt with random seed #3 ... objective -9.461000e+03
+
+Summary candidate parameter set 2
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_c101.t  -9.461000e+03 -9.461000e+03 -9.461000e+03 -9.461000e+03         0.00 0.000000e+00
+
+Progress so far:
+  baseline: mean objective -9.861000e+03 (parameter set 1, 0 non-defaults)
+  best:     mean objective -9.861000e+03 (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 21605s (86395s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 3...
+
+	MIPFocus 3
+
+Solving 50_c101.txt with random seed #1 ... objective -9.461000e+03
+Solving 50_c101.txt with random seed #2 ... objective -9.461000e+03
+Solving 50_c101.txt with random seed #3 ... objective -9.611000e+03
+
+Summary candidate parameter set 3
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_c101.t  -9.461000e+03 -9.461000e+03 -9.611000e+03 -9.511000e+03        70.71 0.000000e+00
+
+Progress so far:
+  baseline: mean objective -9.861000e+03 (parameter set 1, 0 non-defaults)
+  best:     mean objective -9.861000e+03 (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 32406s (75594s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 4...
+
+	MIPFocus 2
+
+Solving 50_c101.txt with random seed #1 ... objective -1.006100e+04
+Solving 50_c101.txt with random seed #2 ... objective -1.006100e+04
+Solving 50_c101.txt with random seed #3 ... objective -9.841000e+03
+
+Summary candidate parameter set 4
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_c101.t  -1.006100e+04 -1.006100e+04 -9.841000e+03 -9.987667e+03       103.71 0.000000e+00
+
+Progress so far:
+  baseline: mean objective -9.861000e+03 (parameter set 1, 0 non-defaults)
+  best:     mean objective -9.861000e+03 (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 43207s (64794s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 5...
+
+	CutPasses 1
+
+Solving 50_c101.txt with random seed #1 ... objective -9.461000e+03
+Solving 50_c101.txt with random seed #2 ... objective -1.006100e+04
+Solving 50_c101.txt with random seed #3 ... objective -1.006100e+04
+
+Summary candidate parameter set 5
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_c101.t  -9.461000e+03 -1.006100e+04 -1.006100e+04 -9.861000e+03       282.84 0.000000e+00
+
+Progress so far:
+  baseline: mean objective -9.861000e+03 (parameter set 1, 0 non-defaults)
+  best:     mean objective -9.861000e+03 (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 54008s (53992s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 6...
+
+	MIPFocus 2
+	AggFill 5
+
+Solving 50_c101.txt with random seed #1 ... objective -9.841000e+03
+Solving 50_c101.txt with random seed #2 ... objective -1.006100e+04
+ nbbbbbbbbbbbbbbbbbkjm	qa	QcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccSolving 50_c101.txt with random seed #3 ... objective -1.006100e+04
+
+Summary candidate parameter set 6
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_c101.t  -9.841000e+03 -1.006100e+04 -1.006100e+04 -9.987667e+03       103.71 0.000000e+00
+
+Progress so far:
+  baseline: mean objective -9.861000e+03 (parameter set 1, 0 non-defaults)
+  best:     mean objective -9.861000e+03 (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 64809s (43191s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 7...
+
+	RINS 2500
+
+Solving 50_c101.txt with random seed #1 ... objective -9.841000e+03
+Solving 50_c101.txt with random seed #2 ... objective -1.006100e+04
+Solving 50_c101.txt with random seed #3 ... objective -1.006100e+04
+
+Summary candidate parameter set 7
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_c101.t  -9.841000e+03 -1.006100e+04 -1.006100e+04 -9.987667e+03       103.71 0.000000e+00
+
+Progress so far:
+  baseline: mean objective -9.861000e+03 (parameter set 1, 0 non-defaults)
+  best:     mean objective -9.861000e+03 (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 75612s (32388s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 8...
+
+	MIPFocus 2
+	VarBranch 1
+
+Solving 50_c101.txt with random seed #1 ... objective -1.006100e+04
+Solving 50_c101.txt with random seed #2 ... objective -9.461000e+03
+Solving 50_c101.txt with random seed #3 ... objective -1.006100e+04
+
+Summary candidate parameter set 8
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_c101.t  -1.006100e+04 -9.461000e+03 -1.006100e+04 -9.861000e+03       282.84 0.000000e+00
+
+Progress so far:
+  baseline: mean objective -9.861000e+03 (parameter set 1, 0 non-defaults)
+  best:     mean objective -9.861000e+03 (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 86413s (21587s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 9...
+
+	NormAdjust 2
+
+Solving 50_c101.txt with random seed #1 ... objective -1.006100e+04
+Solving 50_c101.txt with random seed #2 ... objective -1.006100e+04
+Solving 50_c101.txt with random seed #3 ... objective -1.006100e+04
+
+Summary candidate parameter set 9
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_c101.t  -1.006100e+04 -1.006100e+04 -1.006100e+04 -1.006100e+04         0.00 0.000000e+00
+
+Progress so far:
+  baseline: mean objective -9.861000e+03 (parameter set 1, 0 non-defaults)
+  best:     mean objective -9.861000e+03 (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 97247s (10754s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 10...
+
+	PrePasses 2
+
+Solving 50_c101.txt with random seed #1 ... objective -1.006100e+04
+Solving 50_c101.txt with random seed #2 ... objective -9.841000e+03
+Solving 50_c101.txt with random seed #3 ... objective -1.006100e+04
+
+Summary candidate parameter set 10
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_c101.t  -1.006100e+04 -9.841000e+03 -1.006100e+04 -9.987667e+03       103.71 0.000000e+00
+
+Progress so far:
+  baseline: mean objective -9.861000e+03 (parameter set 1, 0 non-defaults)
+  best:     mean objective -9.861000e+03 (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 108050s (-50s remaining, 1 running jobs)
+
+
+
+Tune time limit reached
+
+-------------------------------------------------------------------------------
+
+Tested 10 parameter sets in 108049.78s
+Total optimization run time for up to 1 concurrent runs: 108000.38s
+
+Baseline parameter set: mean objective -9.861000e+03
+
+	Default parameters
+
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_c101.t  -9.461000e+03 -1.006100e+04 -1.006100e+04 -9.861000e+03       282.84 0.000000e+00
+
+
+Improved parameter set 1 (mean objective -1.006100e+04):
+
+	NormAdjust 2
+
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_c101.t  -1.006100e+04 -1.006100e+04 -1.006100e+04 -1.006100e+04         0.00 0.000000e+00

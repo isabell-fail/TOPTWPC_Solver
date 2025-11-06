@@ -1,0 +1,41 @@
+Start tuning.
+
+Solving model using baseline parameter set with TimeLimit=3600s
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 1...
+
+        SimplexPricing 2 (fixed)
+        Heuristics 0.5 (fixed)
+
+Solving model_000 with random seed #1 ... objective -1.619500e+04
+Solving model_000 with random seed #2 ... objective -1.619500e+04
+Solving model_000 with random seed #3 ... objective -1.630700e+04
+
+Summary candidate parameter set 1
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0            -1.619500e+04 -1.619500e+04 -1.630700e+04 -1.623233e+04        52.80 0.000000e+00
+
+-------------------------------------------------------------------------------
+Begin tuning (baseline mean objective -1.623233e+04)...
+
+
+Tune time limit reached
+
+-------------------------------------------------------------------------------
+
+Tested 1 parameter sets in 10801.21s
+Total optimization run time for up to 1 concurrent runs: 10800.07s
+
+Baseline parameter set: mean objective -1.623233e+04
+
+        SimplexPricing 2 (fixed)
+        Heuristics 0.5 (fixed)
+
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0            -1.619500e+04 -1.619500e+04 -1.630700e+04 -1.623233e+04        52.80 0.000000e+00
+
+Unable to improve on baseline parameter set.
+
+grbtune Heuristics=0.5 SimplexPricing=2 TuneTimeLimit=10800 TuneCriterion=2 TuneTrials=3 TimeLimit=3600 C:\Users\Isabe\IdeaProjects\TOPTWPC_Solver\50_rc101.txt_2.lp

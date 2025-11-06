@@ -1,0 +1,39 @@
+Start tuning.
+
+Solving model using baseline parameter set with TimeLimit=3600s
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 1...
+
+        SimplexPricing 2 (fixed)
+        Heuristics 0.5 (fixed)
+
+Solving model_000 with random seed #1 ... objective -1.006100e+04
+Solving model_000 with random seed #2 ... objective -9.841000e+03
+Solving model_000 with random seed #3 ... objective -1.006100e+04
+
+Summary candidate parameter set 1
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0            -1.006100e+04 -9.841000e+03 -1.006100e+04 -9.987667e+03       103.71 0.000000e+00
+
+-------------------------------------------------------------------------------
+Begin tuning (baseline mean objective -9.987667e+03)...
+
+
+Tune time limit reached
+
+-------------------------------------------------------------------------------
+
+Tested 1 parameter sets in 10800.64s
+Total optimization run time for up to 1 concurrent runs: 10800.02s
+
+Baseline parameter set: mean objective -9.987667e+03
+
+        SimplexPricing 2 (fixed)
+        Heuristics 0.5 (fixed)
+
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0            -1.006100e+04 -9.841000e+03 -1.006100e+04 -9.987667e+03       103.71 0.000000e+00
+
+Unable to improve on baseline parameter set.

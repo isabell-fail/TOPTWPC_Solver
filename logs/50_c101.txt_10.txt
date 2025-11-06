@@ -1,0 +1,38 @@
+
+Gurobi 11.0.3 (win64) logging started Fri Jan 10 20:51:02 2025
+
+Set parameter LogFile to value "logs2/50_c101.txt_10.txt"
+Set parameter Heuristics to value 0.5
+Set parameter SimplexPricing to value 2
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 1744 rows, 1590 columns and 7694 nonzeros
+Model fingerprint: 0xb48f678a
+Variable types: 52 continuous, 1538 integer (1538 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+01, 7e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+
+User MIP start produced solution with objective 16109 (0.72s)
+Loaded user MIP start with objective 16109
+Processed MIP start in 1.47 seconds (0.00 work units)
+
+Presolve removed 759 rows and 438 columns
+Presolve time: 0.09s
+Presolved: 985 rows, 1152 columns, 5046 nonzeros
+Variable types: 40 continuous, 1112 integer (1112 binary)
+
+Explored 0 nodes (0 simplex iterations) in 1.56 seconds (0.04 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 16109 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.610900000000e+04, best bound 1.610900000000e+04, gap 0.0000%
+
+User-callback calls 397, time in user-callback 1.45 sec

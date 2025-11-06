@@ -1,0 +1,176 @@
+Start tuning.
+
+Solving model using baseline parameter set with TimeLimit=3600s
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 1...
+
+	Default parameters
+
+Solving 50_c101.txt with random seed #1 ... objective -1.610900e+04
+Solving 50_c101.txt with random seed #2 ... objective -1.610900e+04
+Solving 50_c101.txt with random seed #3 ... objective -1.610900e+04
+
+Summary candidate parameter set 1 
+ # Name              0        1        2      Avg  Std Dev      Max
+ 0 50_c101.t     0.05s    0.05s    0.05s    0.05s     0.00    0.05s
+
+Setting total tuning time limit to 1s
+(set the TuneTimeLimit parameter to choose a different value)
+
+-------------------------------------------------------------------------------
+Begin tuning (baseline mean runtime 0.05s)...
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 2...
+
+	Heuristics 0
+
+Solving 50_c101.txt with random seed #1 ... runtime 0.05s
+Solving 50_c101.txt with random seed #2 ... runtime 0.06s
+Solving 50_c101.txt with random seed #3 ... runtime 0.06s
+
+Summary candidate parameter set 2 
+ # Name              0        1        2      Avg  Std Dev      Max
+ 0 50_c101.t     0.05s    0.06s    0.06s    0.05s     0.00    0.06s
+
+Progress so far:
+  baseline: mean runtime 0.05s (parameter set 1, 0 non-defaults)
+  best:     mean runtime 0.05s (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 0s (1s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 3...
+
+	MIPFocus 2
+
+Solving 50_c101.txt with random seed #1 ... runtime 0.07s
+Solving 50_c101.txt with random seed #2 ... runtime 0.06s
+Solving 50_c101.txt with random seed #3 ... runtime 0.06s
+
+Summary candidate parameter set 3 
+ # Name              0        1        2      Avg  Std Dev      Max
+ 0 50_c101.t     0.07s    0.06s    0.06s    0.06s     0.00    0.07s
+
+Progress so far:
+  baseline: mean runtime 0.05s (parameter set 1, 0 non-defaults)
+  best:     mean runtime 0.05s (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 0s (1s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 4...
+
+	DegenMoves 0
+	MIPFocus 2
+
+Solving 50_c101.txt with random seed #1 ... runtime 0.07s
+Solving 50_c101.txt with random seed #2 ... runtime 0.06s
+Solving 50_c101.txt with random seed #3 ... runtime 0.06s
+
+Summary candidate parameter set 4 
+ # Name              0        1        2      Avg  Std Dev      Max
+ 0 50_c101.t     0.07s    0.06s    0.06s    0.06s     0.01    0.07s
+
+Progress so far:
+  baseline: mean runtime 0.05s (parameter set 1, 0 non-defaults)
+  best:     mean runtime 0.05s (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 1s (1s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 5...
+
+	Method 0
+	MIPFocus 2
+
+Solving 50_c101.txt with random seed #1 ... runtime 0.06s
+Solving 50_c101.txt with random seed #2 ... runtime 0.07s
+Solving 50_c101.txt with random seed #3 ... runtime 0.06s
+
+Summary candidate parameter set 5 
+ # Name              0        1        2      Avg  Std Dev      Max
+ 0 50_c101.t     0.06s    0.07s    0.06s    0.06s     0.00    0.07s
+
+Progress so far:
+  baseline: mean runtime 0.05s (parameter set 1, 0 non-defaults)
+  best:     mean runtime 0.05s (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 1s (1s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 6...
+
+	Heuristics 0.5
+
+Solving 50_c101.txt with random seed #1 ... runtime 0.05s
+Solving 50_c101.txt with random seed #2 ... runtime 0.05s
+Solving 50_c101.txt with random seed #3 ... runtime 0.06s
+
+Summary candidate parameter set 6 
+ # Name              0        1        2      Avg  Std Dev      Max
+ 0 50_c101.t     0.05s    0.05s    0.06s    0.05s     0.01    0.06s
+
+Progress so far:
+  baseline: mean runtime 0.05s (parameter set 1, 0 non-defaults)
+  best:     mean runtime 0.05s (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 1s (0s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 7...
+
+	MIPFocus 2
+	PrePasses 1
+
+Solving 50_c101.txt with random seed #1 ... runtime 0.06s
+Solving 50_c101.txt with random seed #2 ... runtime 0.06s
+Solving 50_c101.txt with random seed #3 ... runtime 0.06s
+
+Summary candidate parameter set 7 
+ # Name              0        1        2      Avg  Std Dev      Max
+ 0 50_c101.t     0.06s    0.06s    0.06s    0.06s     0.00    0.06s
+
+Progress so far:
+  baseline: mean runtime 0.05s (parameter set 1, 0 non-defaults)
+  best:     mean runtime 0.05s (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 1s (0s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 8...
+
+	PrePasses 2
+
+Solving 50_c101.txt with random seed #1 ... runtime 0.06s
+Solving 50_c101.txt with random seed #2 ... runtime 0.06s
+Solving 50_c101.txt with random seed #3 ... runtime 0.05s
+
+Summary candidate parameter set 8 
+ # Name              0        1        2      Avg  Std Dev      Max
+ 0 50_c101.t     0.06s    0.06s    0.05s    0.06s     0.00    0.06s
+
+Progress so far:
+  baseline: mean runtime 0.05s (parameter set 1, 0 non-defaults)
+  best:     mean runtime 0.05s (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 1s (0s remaining, 1 running jobs)
+
+
+
+Tune time limit reached
+
+-------------------------------------------------------------------------------
+
+Tested 8 parameter sets in 1.38s
+Total optimization run time for up to 1 concurrent runs: 1.37s
+
+Baseline parameter set: mean runtime 0.05s
+
+	Default parameters
+
+ # Name              0        1        2      Avg  Std Dev      Max
+ 0 50_c101.t     0.05s    0.05s    0.05s    0.05s     0.00    0.05s
+
+Unable to improve on baseline parameter set.

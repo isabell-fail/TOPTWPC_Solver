@@ -1,0 +1,229 @@
+
+Start tuning.
+
+Solving model using baseline parameter set with TimeLimit=3600s
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 1...
+
+	Default parameters
+
+Solving 50_rc101.txt with random seed #1 ... objective -2.132200e+04
+Solving 50_rc101.txt with random seed #2 ... objective -2.132200e+04
+Solving 50_rc101.txt with random seed #3 ... objective -2.131100e+04
+
+Summary candidate parameter set 1 
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_rc101.  -2.132200e+04 -2.132200e+04 -2.131100e+04 -2.131833e+04         5.19 0.000000e+00
+
+Setting total tuning time limit to 108000s
+(set the TuneTimeLimit parameter to choose a different value)
+
+-------------------------------------------------------------------------------
+Begin tuning (baseline mean objective -2.131833e+04)...
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 2...
+
+	RINS 0
+
+Solving 50_rc101.txt with random seed #1 ... objective -2.108100e+04
+Solving 50_rc101.txt with random seed #2 ... objective -2.131100e+04
+Solving 50_rc101.txt with random seed #3 ... objective -2.123100e+04
+
+Summary candidate parameter set 2 
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_rc101.  -2.108100e+04 -2.131100e+04 -2.123100e+04 -2.120767e+04        95.34 0.000000e+00
+
+Progress so far:
+  baseline: mean objective -2.131833e+04 (parameter set 1, 0 non-defaults)
+  best:     mean objective -2.131833e+04 (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 21601s (86399s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 3...
+
+	MIPFocus 3
+
+Solving 50_rc101.txt with random seed #1 ... objective -2.131100e+04
+Solving 50_rc101.txt with random seed #2 ... objective -2.131100e+04
+Solving 50_rc101.txt with random seed #3 ... objective -2.132200e+04
+
+Summary candidate parameter set 3 
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_rc101.  -2.131100e+04 -2.131100e+04 -2.132200e+04 -2.131467e+04         5.19 0.000000e+00
+
+Progress so far:
+  baseline: mean objective -2.131833e+04 (parameter set 1, 0 non-defaults)
+  best:     mean objective -2.131833e+04 (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 32402s (75598s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 4...
+
+	MIPFocus 2
+
+Solving 50_rc101.txt with random seed #1 ... objective -2.131100e+04
+Solving 50_rc101.txt with random seed #2 ... objective -2.131100e+04
+Solving 50_rc101.txt with random seed #3 ... objective -2.131100e+04
+
+Summary candidate parameter set 4 
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_rc101.  -2.131100e+04 -2.131100e+04 -2.131100e+04 -2.131100e+04         0.00 0.000000e+00
+
+Progress so far:
+  baseline: mean objective -2.131833e+04 (parameter set 1, 0 non-defaults)
+  best:     mean objective -2.131833e+04 (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 43203s (64798s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 5...
+
+	GomoryPasses 0
+
+Solving 50_rc101.txt with random seed #1 ... objective -2.132200e+04
+Solving 50_rc101.txt with random seed #2 ... objective -2.132200e+04
+Solving 50_rc101.txt with random seed #3 ... objective -2.131100e+04
+
+Summary candidate parameter set 5 
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_rc101.  -2.132200e+04 -2.132200e+04 -2.131100e+04 -2.131833e+04         5.19 0.000000e+00
+
+Progress so far:
+  baseline: mean objective -2.131833e+04 (parameter set 1, 0 non-defaults)
+  best:     mean objective -2.131833e+04 (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 54003s (53997s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 6...
+
+	MIPFocus 2
+	PreDepRow 0
+
+Solving 50_rc101.txt with random seed #1 ... objective -2.131100e+04
+Solving 50_rc101.txt with random seed #2 ... objective -2.132200e+04
+Solving 50_rc101.txt with random seed #3 ... objective -2.131100e+04
+
+Summary candidate parameter set 6 
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_rc101.  -2.131100e+04 -2.132200e+04 -2.131100e+04 -2.131467e+04         5.19 0.000000e+00
+
+Progress so far:
+  baseline: mean objective -2.131833e+04 (parameter set 1, 0 non-defaults)
+  best:     mean objective -2.131833e+04 (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 64804s (43196s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 7...
+
+	Heuristics 0.5
+
+Solving 50_rc101.txt with random seed #1 ... objective -2.132200e+04
+Solving 50_rc101.txt with random seed #2 ... objective -2.134100e+04
+Solving 50_rc101.txt with random seed #3 ... objective -2.131100e+04
+
+Summary candidate parameter set 7 
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_rc101.  -2.132200e+04 -2.134100e+04 -2.131100e+04 -2.132467e+04        12.39 0.000000e+00
+
+Progress so far:
+  baseline: mean objective -2.131833e+04 (parameter set 1, 0 non-defaults)
+  best:     mean objective -2.131833e+04 (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 75605s (32395s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 8...
+
+	MIPFocus 2
+	RINS 500
+
+Solving 50_rc101.txt with random seed #1 ... objective -2.131100e+04
+Solving 50_rc101.txt with random seed #2 ... objective -2.134100e+04
+Solving 50_rc101.txt with random seed #3 ... objective -2.132200e+04
+
+Summary candidate parameter set 8 
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_rc101.  -2.131100e+04 -2.134100e+04 -2.132200e+04 -2.132467e+04        12.39 0.000000e+00
+
+Progress so far:
+  baseline: mean objective -2.131833e+04 (parameter set 1, 0 non-defaults)
+  best:     mean objective -2.131833e+04 (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 86405s (21595s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 9...
+
+	SimplexPricing 2
+
+Solving 50_rc101.txt with random seed #1 ... objective -2.127200e+04
+Solving 50_rc101.txt with random seed #2 ... objective -2.134100e+04
+Solving 50_rc101.txt with random seed #3 ... objective -2.131100e+04
+
+Summary candidate parameter set 9 
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_rc101.  -2.127200e+04 -2.134100e+04 -2.131100e+04 -2.130800e+04        28.25 0.000000e+00
+
+Progress so far:
+  baseline: mean objective -2.131833e+04 (parameter set 1, 0 non-defaults)
+  best:     mean objective -2.131833e+04 (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 97206s (10794s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 10...
+
+	PrePasses 2
+
+Solving 50_rc101.txt with random seed #1 ... objective -2.132200e+04
+Solving 50_rc101.txt with random seed #2 ... objective -2.131100e+04
+Solving 50_rc101.txt with random seed #3 ... objective -2.131100e+04
+
+Summary candidate parameter set 10 
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_rc101.  -2.132200e+04 -2.131100e+04 -2.131100e+04 -2.131467e+04         5.19 0.000000e+00
+
+Progress so far:
+  baseline: mean objective -2.131833e+04 (parameter set 1, 0 non-defaults)
+  best:     mean objective -2.131833e+04 (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 108007s (-6s remaining, 1 running jobs)
+
+
+
+Tune time limit reached
+
+-------------------------------------------------------------------------------
+
+Tested 10 parameter sets in 108006.76s
+Total optimization run time for up to 1 concurrent runs: 108000.45s
+
+Baseline parameter set: mean objective -2.131833e+04
+
+	Default parameters
+
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_rc101.  -2.132200e+04 -2.132200e+04 -2.131100e+04 -2.131833e+04         5.19 0.000000e+00
+
+
+Improved parameter set 1 (mean objective -2.132467e+04):
+
+	MIPFocus 2
+	RINS 500
+
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_rc101.  -2.131100e+04 -2.134100e+04 -2.132200e+04 -2.132467e+04        12.39 0.000000e+00
+
+
+Improved parameter set 2 (mean objective -2.132467e+04):
+
+	Heuristics 0.5
+
+ # Name                  0            1            2          Avg      Std Dev          Max
+ 0 50_rc101.  -2.132200e+04 -2.134100e+04 -2.131100e+04 -2.132467e+04        12.39 0.000000e+00
