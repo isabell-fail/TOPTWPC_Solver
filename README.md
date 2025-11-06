@@ -2,13 +2,9 @@
 
 ## Time-Oriented Team Orienteering Problem with Priorities and Constraints
 
-This project provides a **hybrid optimization framework** for solving the  
-**Time-Oriented Team Orienteering Problem with Priorities and Constraints (TOPTWPC)** —  
-a routing problem that combines **profit maximization**, **time windows**, **deadlines**,  
-and **priority-based constraints**.
+This project provides a **hybrid optimization framework** for solving the **Time-Oriented Team Orienteering Problem with Priorities and Constraints (TOPTWPC)** — a routing problem that combines **profit maximization**, **time windows**, **deadlines**, and **priority-based constraints**.
 
-It integrates **heuristics**, **metaheuristics**, and **exact optimization** via Gurobi  
-to efficiently construct and refine feasible routing solutions.
+It integrates **heuristics**, **metaheuristics**, and **exact optimization** via Gurobi to efficiently construct and refine feasible routing solutions.
 
 ---
 
@@ -24,13 +20,14 @@ to efficiently construct and refine feasible routing solutions.
 
 ## 📂 Project Structure
 
+```text
 TOPTWPC/
-├── main.py # CLI entry point for running the solver
-├── heuristics.py # Greedy, SA, and local optimization methods
-├── toptwpc.py # Gurobi MIP model for the TOPTWPC
-├── utils.py # Instance parsing, preprocessing, and solution extraction
-└── instances/ # (Optional) Example instance files
-
+├── main.py          # CLI entry point for running the solver
+├── heuristics.py    # Greedy, SA, and local optimization methods
+├── toptwpc.py       # Gurobi MIP model for the TOPTWPC
+├── utils.py         # Instance parsing, preprocessing, and solution extraction
+└── instances/       # (Optional) Example instance files
+```
 ---
 
 ## ⚙️ Installation
@@ -50,7 +47,7 @@ Run the solver from the command line:
 
 ```bash
 python main.py path/to/instance.txt 3 --time_limit 3600
-
+```
 | Argument          | Description                                   |
 | ----------------- | --------------------------------------------- |
 | `filepath`        | Path to the instance file                     |
@@ -59,20 +56,11 @@ python main.py path/to/instance.txt 3 --time_limit 3600
 | `--log_name`      | Optional log file name                        |
 | `--help_instance` | Show detailed instance format help            |
 
-**Example Output**
-
-Optimierung erfolgreich abgeschlossen.
-Bester gefundener Score: 540.0
-
-Optimale Lösung (Routen):
-Fahrzeug 0: [1, 3, 5, 7, 1]
-Fahrzeug 1: [1, 2, 4, 6, 1]
 ---
 
 ## 🧾 Instance References
 
-The included or compatible test instances are based on the **Team Orienteering Problem with Time Windows (TOPTW)** datasets, derived from well-established benchmark sets in the literature.  
-These instances originate from adaptations of the **Solomon (1987)** vehicle routing problems with time windows and the **Cordeau et al. (1997)** multi-depot vehicle routing problems.
+The included or compatible test instances are based on the **Team Orienteering Problem with Time Windows (TOPTW)** datasets, derived from well-established benchmark sets in the literature. These instances originate from adaptations of the **Solomon (1987)** vehicle routing problems with time windows and the **Cordeau et al. (1997)** multi-depot vehicle routing problems.
 
 ### 📚 References
 
@@ -98,23 +86,16 @@ These instances originate from adaptations of the **Solomon (1987)** vehicle rou
   *Well-tuned algorithms for the Team Orienteering Problem with Time Windows.*  
   **Journal of the Operational Research Society**, 68, 861–876 (2017).
 
-### 🧩 Test Instance Sets
-
-| Source | Instance Prefix | Notes |
-|--------|-----------------|-------|
-| **Righini & Salani (2006, 2008)** | `c-r-rc-100-50`, `c-r-rc-100-100`, `pr01-10` | Optimal solutions available |
-| **Montemanni & Gambardella (2009)** | `c-r-rc-200-100`, `pr11-20` | Ant Colony-based approach |
-| **Vansteenwegen et al. (2009)** | `c-r-rc-100-100`, `pr01-10` | Iterated Local Search heuristic |
-
 ➡️ For detailed format descriptions and data availability, see the original publications above.
 
 ---
 
-## 🧮 Overview
+## 🎓 Academic Context
 
-1. **`utils.py`** – reads and processes instance files  
-2. **`heuristics.py`** – builds and improves heuristic solutions  
-3. **`toptwpc.py`** – defines and solves the Gurobi optimization model  
-4. **`main.py`** – orchestrates the full workflow and outputs routes
+This solver and its underlying algorithms were developed as part of the Master's thesis:
+
+**_“Das Team Orienteering Problem mit Zeitfenstern und Prioritätsklassen zur Evakuierung bei Starkregenkatastrophen”_**  
+
+The work focuses on extending the classical Team Orienteering Problem with Time Windows (TOPTW) by incorporating **priority classes** and **evacuation-specific constraints**, addressing real-world challenges in **disaster management and emergency logistics**.
 
 
